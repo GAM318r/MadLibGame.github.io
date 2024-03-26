@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std; 
+
+int main(){
+  string color, pluralNoun, celebrity; 
+
+  cout << "Enter a color: " << endl;
+  cin >> color;
+  cout << "Enter a pluralNoun: " << endl;
+  cin >> pluralNoun;
+  cout << "Enter a celebrity: " << endl; 
+  cin >> celebrity;
+
+  cout << "The best color in the world is " << color << endl;
+  cout << "The " << pluralNoun << " in Florida are the best " << endl;
+  cout << celebrity << " is overrated " << endl;
+  
+
+  
+  return 0;
+
+}
